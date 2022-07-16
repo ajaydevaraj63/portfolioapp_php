@@ -32,7 +32,7 @@
 $db = mysqli_connect("localhost", "root", "", "imageuploaddb");
 
 // Get images from the database
-$query = $db->query("SELECT * FROM image WHERE ID=67");
+$query = $db->query("SELECT * FROM image WHERE title='elephent'");
 
 if($query->num_rows > 0){
     while($row = $query->fetch_assoc()){
@@ -72,7 +72,7 @@ if($query->num_rows > 0){
             <div class="menu-wrap">
                 <div class="menu-inner">
                     <!-- menu logo-->
-                    <a href="index.html" class="menu-logo"><img src="images/logo2.png" alt=""></a>
+                    <a href="elephentpage.html" class="menu-logo"><img src="images/logo2.png" alt=""></a>
                     <!-- menu logo end -->
                     <div class="hid-men-wrap   alt">
                         <div id="hid-men">
@@ -141,9 +141,9 @@ if($query->num_rows > 0){
                                     <!-- gallery-item-->
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
-                                        <div class="box-item vis-det folio-img fl-wrap">
-                                            <img  src="<?php echo $imageURL1; ?>"    alt="">
-                                            <a data-src="images/folio/1.jpg" class="popgal"><i class="fa fa-search"></i></a>
+                                        <div class="box-item  ">
+                                        <a href="dashboard1.php"><img  src="<?php echo $imageURL1; ?>" alt=""></a>    
+                                         
                                         </div>
 
                                         </div>
@@ -152,9 +152,9 @@ if($query->num_rows > 0){
                                     <!-- gallery-item-->
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
-                                        <div class="box-item vis-det folio-img fl-wrap">
-                                            <img  src="<?php echo $imageURL2; ?>"    alt="">
-                                            <a data-src="images/folio/1.jpg" class="popgal"><i class="fa fa-search"></i></a>
+                                        <div class="">
+                                        <a href="elephentpage.php"><img  src="<?php echo $imageURL2; ?>" alt=""></a>    
+                                          >
                                         </div>
 
                                         </div>
@@ -163,8 +163,8 @@ if($query->num_rows > 0){
                                     <!-- gallery-item-->
                                     <div class="gallery-item gallery-item-second">
                                         <div class="grid-item-holder">
-                                        <div class="box-item vis-det folio-img fl-wrap">
-                                            <img  src="<?php echo $imageURL3; ?>"    alt="">
+                                        <div class="box-item  ">
+                                        <a href="elephentpage.php"><img  src="<?php echo $imageURL3; ?>" alt=""></a>    
                                             <a data-src="images/folio/1.jpg" class="popgal"><i class="fa fa-search"></i></a>
                                         </div>
 
@@ -174,8 +174,8 @@ if($query->num_rows > 0){
                                     <!-- gallery-item-->
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
-                                        <div class="box-item vis-det folio-img fl-wrap">
-                                            <img  src="<?php echo $imageURL4; ?>"    alt="">
+                                        <div class="box-item ">
+                                        <a href="elephentpage.php"><img  src="<?php echo $imageURL4; ?>" alt=""></a>    
                                             <a data-src="images/folio/1.jpg" class="popgal"><i class="fa fa-search"></i></a>
                                         </div>
 
@@ -185,8 +185,8 @@ if($query->num_rows > 0){
                                     <!-- gallery-item-->
                                     <div class="gallery-item">
                                         <div class="grid-item-holder">
-                                        <div class="box-item vis-det folio-img fl-wrap">
-                                            <img  src="<?php echo $imageURL5; ?>"    alt="">
+                                        <div class="box-item  ">
+                                            <img  src="<?php echo $imageURL6; ?>"    alt=""> <a href="elephentpage.php"><img  src="<?php echo $imageURL2; ?>" alt=""></a>    
                                             <a data-src="images/folio/1.jpg" class="popgal"><i class="fa fa-search"></i></a>
                                         </div>
 

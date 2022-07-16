@@ -4,7 +4,7 @@ error_reporting(0);
 $msg = "";
 
 // If upload button is clicked ...
-if (isset($_POST['upload'])) {
+if (isset($_POST['upload1'])) {
       $name = $_POST['name1']; 
       $name2 = $_POST['name2']; 
       $desc1 = $_POST['dec1']; 
@@ -109,7 +109,7 @@ $folder5 = "./image/" . $filename5;
                 <textarea class="form-control p-2 my-2" id="exampleFormControlTextarea1" placeholder="decsription4" rows="3" name="dec4"></textarea>
               
             <div class="form-group">
-            <input type="submit" class="btn btn-success" name="upload" >
+            <input type="submit" class="btn btn-success" name="upload1" >
   
         </div>
         </form>

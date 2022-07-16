@@ -16,7 +16,7 @@
                                     <!-- level 2 end-->
                                 </li>
                                 <li>
-                                    <a href="portfolio-single2.php">photography</a>
+                                    <a href="portfolio-single2.php">photos</a>
                                     <!-- level 2-->
                                     
                                        
